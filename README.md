@@ -68,3 +68,21 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+# Getting Started with json-server
+
+## Prerequisites
+
+Before you begin, make sure you have Node.js and NPM (Node Package Manager) installed on your machine. You can download and install them from the official website: [Node.js](https://nodejs.org/).
+
+## Install
+  ```bash
+   npm install -g json-server
+  ```
+
+Pass it to JSON Server CLI
+
+  ```bash
+   npx json-server --watch api-artists/artists.json --port 4000
+  ```
