@@ -84,5 +84,5 @@ Before you begin, make sure you have Node.js and NPM (Node Package Manager) inst
 Pass it to JSON Server CLI
 
   ```bash
-   npx json-server --watch api-artists/artists.json --port 3000
+   npx json-server --watch api-artists/artists.json --port 4000
   ```
