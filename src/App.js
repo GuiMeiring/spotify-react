@@ -1,14 +1,18 @@
 import 'normalize.css';
 import './App.css';
-import Footer from './Footer/Footer';
-import Header from './Header/Header';
-import Sidebar from './Sidebar/Sidebar';
-import Main from './Main/Main';
+import Footer from './components/Footer/Footer';
+import Header from './components/Header/Header';
+import Sidebar from './components/Sidebar/Sidebar';
+import Main from './components/Main/Main';
 
 function App() {
   return (
-      <><Sidebar></Sidebar><Header></Header><Footer></Footer><Main></Main></>
-
+      <div>
+        <Sidebar/>
+        <Header/>
+        <Footer/>
+        <Main/>
+      </div>
   );
 }
 

@@ -1,7 +1,7 @@
 import React from "react";
 import './Sidebar.css';
-import '../var.css';
-import logo from '../assets/icons/logo-spotify.png'
+import '../../var.css';
+import logo from '../../assets/icons/logo-spotify.png'
 
 const Sidebar = () => {
     return (
